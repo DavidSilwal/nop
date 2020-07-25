@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Presentation\Nop.Web\Nop.Web.csproj" />
-    <ProjectReference Include="..\Nop.Tests\Nop.Tests.csproj" />
   </ItemGroup>
 
 </Project>
