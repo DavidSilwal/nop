@@ -1,0 +1,5 @@
+D:\Code\Jewellery\WebApplication\DataAccessLayer.EFCoe\obj\Debug\netstandard2.1\DataAccessLayer.EFCoe.csprojAssemblyReference.cache
+D:\Code\Jewellery\WebApplication\DataAccessLayer.EFCoe\obj\Debug\netstandard2.1\DataAccessLayer.EFCoe.AssemblyInfoInputs.cache
+D:\Code\Jewellery\WebApplication\DataAccessLayer.EFCoe\obj\Debug\netstandard2.1\DataAccessLayer.EFCoe.AssemblyInfo.cs
+D:\Code\Jewellery\WebApplication\DataAccessLayer.EFCoe\bin\Debug\netstandard2.1\DataAccessLayer.EFCoe.deps.json
+D:\Code\Jewellery\WebApplication\DataAccessLayer.EFCoe\bin\Debug\netstandard2.1\DataAccessLayer.EFCoe.dll

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content=""> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.3/signalr.min.js"></script>
+ 
+</head>
+ 
+<body>
+  
+ 
+</body>
+
+<script>
+
+
+const connection = new signalR.HubConnectionBuilder()
+    .withUrl(`https://learnie.azurewebsites.net/learnie?ConnectionId=${ConnectionId}&Name=${Name}&Role=${Role}&Room=${Room}`)
+    .withAutomaticReconnect([1000, 2000, 5000, 5000, 10000, 10000, 10000, 20000, 30000])
+    .configureLogging(signalR.LogLevel.Information)
+    .build();
+
+connection.start().then(() => console.log("connected")).catch(err => console.error(err));
+
+
+//return {name: "Name", role: "Role", room: "Room", connectionId: "cFp9qtBbvuEV3VxOEz8rKg"}
+var client= connection.invoke("GetClientByStreamId",ConnectionId);
+
+//return "Role"
+var role= connection.invoke("GetRoleByStreamId",ConnectionId);
+
+
+
+//return "Role"
+var all= connection.invoke("All");
+
+connection.invoke("GetClientByStreamId",ConnectionId).then((x)=> console.log(x));
+
+
+</script>
+</html>

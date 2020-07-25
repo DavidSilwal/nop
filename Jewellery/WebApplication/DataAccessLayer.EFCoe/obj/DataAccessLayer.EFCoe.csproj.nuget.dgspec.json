@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\Jewellery\\WebApplication\\DataAccessLayer.EFCoe\\DataAccessLayer.EFCoe.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\Jewellery\\WebApplication\\DataAccessLayer.EFCoe\\DataAccessLayer.EFCoe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Jewellery\\WebApplication\\DataAccessLayer.EFCoe\\DataAccessLayer.EFCoe.csproj",
+        "projectName": "DataAccessLayer.EFCoe",
+        "projectPath": "D:\\Code\\Jewellery\\WebApplication\\DataAccessLayer.EFCoe\\DataAccessLayer.EFCoe.csproj",
+        "packagesPath": "C:\\Users\\David Silwal\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Jewellery\\WebApplication\\DataAccessLayer.EFCoe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\David Silwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.5.20278.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.0-preview.5.20278.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.4.20258.7\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

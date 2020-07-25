@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "signalr1": {
+      "restored": true,
+      "restoreTime": "2020-06-09T14:46:53.0098209Z"
+    }
+  },
+  "parameters": {
+    "resourceGroup": {
+      "Type": "resourceGroup",
+      "Value": "learnie"
+    },
+    "subscriptionId": {
+      "Type": "subscription",
+      "Value": "09afdb7e-719b-45ba-8723-7ee584bafdbe"
+    }
+  }
+}
